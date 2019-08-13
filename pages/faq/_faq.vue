@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header>
-      <h1 class="title">Welcome to Nandoca.love!</h1>
+      <h1 class="title">FAQs</h1>
     </Header>
     <div class="container" id="blog">
       <div class="columns">
@@ -17,13 +17,11 @@
 
 <script>
 import Header from "~~/components/header.vue";
-// import ArticleCard from "~~/components/articleCard.vue";
 import Footer from "~~/components/footer.vue";
 
 export default {
   components: {
     Header,
-    // ArticleCard,
     Footer
   },
   // The head function generates all the metadata for the HTML's head

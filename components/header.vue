@@ -1,6 +1,9 @@
 <template>
   <!-- Navbar -->
   <section class="hero is-medium" id="header" :style="backgroundImage">
+    <parallax class="hero is-medium" id="header" :style="backgroundImage">
+  
+</parallax>
     <div class="hero-head">
       <nav class="navbar">
         <div class="container">
@@ -20,12 +23,12 @@
           </div>
           <div class="navbar-menu" :class="{ 'is-active': showNav }">
             <div class="navbar-end">
-              <!-- <nuxt-link to="/#blog" class="navbar-item is-clearfix">
-                <span class="header-link is-pulled-right">BLOG</span>
-              </nuxt-link> -->
-              <!-- <a href="#" class="navbar-item is-clearfix">
-                <span class="header-link is-pulled-right">ABOUT</span>
-              </a> -->
+              <nuxt-link to="/news" class="navbar-item is-clearfix">
+                <span class="header-link is-pulled-right">NEWS</span>
+              </nuxt-link>
+              <a href="/faq" class="navbar-item is-clearfix">
+                <span class="header-link is-pulled-right">FAQs</span>
+              </a>
               <a href="#contact" class="navbar-item is-clearfix">
                 <span class="header-link is-pulled-right">CONTACT</span>
               </a>
@@ -44,7 +47,7 @@
     </div>
 
     <!-- Icons -->
-    <div class="hero-foot">
+    <!-- <div class="hero-foot">
       <nav class="navbar">
         <div class="container">
           <div class="navbar-brand">
@@ -78,12 +81,13 @@
           </div>
         </div>
       </nav>
-    </div>
+    </div>-->
   </section>
 </template>
 
 <script>
 import { fab } from "@fortawesome/free-brands-svg-icons";
+import { Parallax } from "vue-parallaxy";
 
 export default {
   props: ["image"],
@@ -91,6 +95,9 @@ export default {
     return {
       showNav: false
     };
+  },
+  components: {
+    Parallax
   },
   computed: {
     fab() {
