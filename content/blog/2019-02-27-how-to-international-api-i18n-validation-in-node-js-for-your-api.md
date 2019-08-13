@@ -1,5 +1,5 @@
 ---
-type: TUTORIAL
+type: TUTORIALl
 title: International API - i18n + validation in Node.js' Express
 summary: >-
   Modern APIs should be able to talk to your users regardless of their language.
