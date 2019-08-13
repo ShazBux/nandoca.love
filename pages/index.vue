@@ -9,7 +9,6 @@
           <span class="blog-title">Latest articles</span>
         </div>
       </div>
-      <ArticleCard v-for="post in posts" :key="post.id" :articleInfo="post"></ArticleCard>
     </div>
     <Footer></Footer>
   </div>
