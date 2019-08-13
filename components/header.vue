@@ -1,9 +1,6 @@
 <template>
   <!-- Navbar -->
   <section class="hero is-medium" id="header" :style="backgroundImage">
-    <parallax class="hero is-medium" id="header" :style="backgroundImage">
-  
-</parallax>
     <div class="hero-head">
       <nav class="navbar">
         <div class="container">
@@ -26,9 +23,6 @@
               <nuxt-link to="/news" class="navbar-item is-clearfix">
                 <span class="header-link is-pulled-right">NEWS</span>
               </nuxt-link>
-              <a href="/faq" class="navbar-item is-clearfix">
-                <span class="header-link is-pulled-right">FAQs</span>
-              </a>
               <a href="#contact" class="navbar-item is-clearfix">
                 <span class="header-link is-pulled-right">CONTACT</span>
               </a>
