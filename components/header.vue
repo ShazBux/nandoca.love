@@ -6,7 +6,7 @@
         <div class="container">
           <div class="navbar-brand">
             <nuxt-link to="/" class="navbar-item">
-              <span class="israel-munoz">ISRAEL MUÑOZ</span>
+              <span class="nandoca-love">nandoca.love</span>
             </nuxt-link>
             <span
               class="navbar-burger"
@@ -122,7 +122,7 @@ export default {
   background-color: transparent;
 }
 
-.israel-munoz {
+.nandoca-love {
   color: #ff445b;
   font-family: "Work Sans";
   font-size: 18px;
