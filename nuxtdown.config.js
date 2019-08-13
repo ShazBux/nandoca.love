@@ -20,13 +20,6 @@ module.exports = {
         isPost: true
       }
     ]
-    [ "faq",
-    {
-      page: "/faq/_faq",
-      permalink: "faq/:slug",
-      isPost: true
-    }
-  ]
   ],
   parsers: {
     md: {
